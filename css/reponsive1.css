@@ -1,0 +1,121 @@
+
+@media screen and (max-width: 1170px)
+{
+	#header .wp-inner,.wp-content,.cover,.list-post-cover .clearfix,.list-post1 .clearfix,
+	.news h3,.widget,.post-title,.list-post,#footer .wp-inner
+	{
+		width: 100%;
+
+	}
+	#main
+	{
+		width:100%;
+		padding-left: 0px;
+	}
+	.menu
+	{
+		
+		width: 78%;
+	}
+	.menu li
+	{
+	width: 15.7%;
+	}
+	.news
+	{
+		width: 60%;
+	}
+	.posts a:nth-child(1) {
+		width:43.2%;
+	}
+	.posts a:nth-child(2)
+	{
+		width: 56.8%;
+	}
+	.list-post1 
+	{
+		width: 40%;
+	}
+
+	.list-post1 a
+	{
+		width: 35%;
+	}
+	.list-post1 a:nth-child(2)
+	{
+		width: 65%;
+	}
+	#sidebar
+	{
+		border-left: none;
+	}
+	.post-thumb
+	{
+		width: 42%;
+	}
+	.list-posts .post-titles
+	{
+		width: 58%;
+	}
+	.post-cover
+	{
+		width: 56%;
+	}
+	.list-post-cover 
+	{
+		width: 44%;
+	}
+	#content
+	{
+		width: 72%;
+	}
+	#sidebar
+	{
+		width: 28%;
+	}
+	#sreach
+	{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 991px)
+{
+
+}
+@media screen and (max-width:768px)
+{
+	#main
+	{
+		display: none;
+	}
+	.fa-bars
+	{
+		display: block;
+	}
+}
+@media screen and (max-width:600px)
+{
+.widget-ft,#content,#sidebar
+{
+	width: 100%;
+}
+#sidebar .ads-1 a img
+{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+}
+@media screen and (max-width:480px)
+{
+
+.list-post-cover,.post-cover,.list-post1,.news
+{
+	width: 100%;
+	margin-top: 60px;
+}
+}
+@media screen and (max-width:320px)
+{
+
+}

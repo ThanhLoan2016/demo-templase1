@@ -1,0 +1,70 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+@font-face {
+	font-family:Roboto-Medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+	font-family:Roboto-LightItalic;
+	src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+	font-family:Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family:Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+.wp-inner
+{
+	width: 1170px;
+	margin: 0 auto;
+}
+.fl-left
+{
+	float: left;
+}
+.fl-right
+{
+	float: right;
+}
+.text-right
+{
+   text-align: right;
+}
+.text-left
+{
+   text-align: left;
+}
+.text-center
+{
+   text-align: center;
+}
+.text-justify
+{
+   text-align: justify;
+}
+*
+{
+	box-sizing: border-box;
+}
+img
+{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
